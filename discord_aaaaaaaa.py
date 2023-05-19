@@ -1,11 +1,11 @@
-import discord
+import discord_aaaaaaaa
 
 from chaves import DISCORD_TOKEN
 
-intents = discord.Intents.default()
+intents = discord_aaaaaaaa.Intents.default()
 intents.message_content = True
 
-client = discord.Client(intents=intents)
+client = discord_aaaaaaaa.Client(intents=intents)
 
 @client.event
 async def on_ready():
